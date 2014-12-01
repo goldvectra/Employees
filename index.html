@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+    <head>
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
+        <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+        <script src="//maps.googleapis.com/maps/api/js?sensor=false"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <script src='script.js'></script>
+
+        <style>
+            .container {max-width:1349px;margin:0 auto;}
+            h1 {margin-left: 40%}
+            table td { padding: 5px ; border: 1px solid black;}
+            #edit_box { display: none;}
+            .table {margin: 20px; }
+
+        </style> 
+    </head>
+
+    <body>
+
+    <div class="container">
+        <h1>Employee List!</h1>
+        <div id="employee_list"></div>
+
+        <div class="table">
+            <table class="table table-bordered">
+            </table>
+        </div>
+
+        <button id="add">Add Employee</button>
+        <div id = "edit_box"></div>
+    </div>
+    <div id ="display_map" style="width: 500px; height: 500px"></div>
+
+    </body>
+</html>
